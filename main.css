@@ -5,7 +5,9 @@ img{
 }
 
 textarea {
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ul {
@@ -13,10 +15,25 @@ ul {
     margin: 0;
     padding: 0;
     width;: 200px;
-    background-color: #f1f1f1;
     overflow: hidden;   
 }
 
 li {
-    display: inline;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;   
+    text-align: center;
+    padding: 10px 11px;
+    text-decoration: none;
+}
+
+li a: :hover {
+    background-color: #111;
+}
+
+footer {
+    
 }
