@@ -2,32 +2,52 @@
 
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
         <link href="main.css" rel="stylesheet" type="text/css"/>
-        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo"/>
+        <meta charset="UTF-8">
         <title>Google</title>
-        <link rel="shortcut icon" type="image/jpg" href="/Images/google-logo.jpg"/>
     </head>
 
     <body>
-        <textarea id="search" name="search" type="text" font="arial" rows="3" cols="100"></textarea>
-        <ul>
-            <!-- The following are dummy links -->
-            <li><a href="#about">About</a></li>
-            <li><a href="#store">Store</a></li>
-            <li><a href="#gmail">Gmail</a></li>
-            <li><a href="#images">Images</a></li>
-        </ul>
+        <div id="container"> 
+            <nav> <!-- Header Navigation Begins-->
+                    <ul>
+                        <!-- The following are dummy links -->
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#store">Store</a></li>
+                        <li><a href="#gmail">Gmail</a></li>
+                        <li><a href="#images">Images</a></li>
+                    </ul>
+            </nav> <!-- Header Navigation Ends -->
+        </div>
 
-        <footer>
-            <ul>
-                <!-- The following are dummy links -->
-                <li><a href="#advertising">Advertising</a></li>
-                <li><a href="#business">Business</a></li>
-                <li><a href="#privacy">Privacy</a></li>
-                <li><a href="#terms">Terms</a></li>
-                <li><a href="#settings">Settings</a></li>
-            </ul>
-        </footer>
+        <!-- Google Logo -->
+        <div id="glogo">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo"/>
+        </div>
+
+        <!-- Search Bar -->
+        <div>
+           <input id="search-bar" type="text" name="search-bar">
+           <a href="#voice-search"><img id="voice-search" src="Images/VoiceSearchIcon.png" alt="Voice Search"</a>
+        </div>
+
+        <!-- Search Buttons -->
+        <div id="srch-bttn">
+            <input type="submit" value="Google Search">
+            <input type="submit" value="I'm Feeling Lucky">
+        </div>
+
+        <footer id="fbar"> <!-- Footer Begins -->
+            <div>
+                <ul>
+                    <!-- The following are dummy links -->
+                    <li><a href="#advertising">Advertising</a></li>
+                    <li><a href="#business">Business</a></li>
+                    <li class="fr-link"><a href="#privacy">Privacy</a></li>
+                    <li class="fr-link"><a href="#terms">Terms</a></li>
+                    <li class="fr-link"><a href="#settings">Settings</a></li>
+                </ul>
+            </div>
+        </footer> <!-- Footer Ends -->
     </body>
 </html>
