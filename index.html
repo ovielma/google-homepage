@@ -9,13 +9,15 @@
 
     <body>
         <div id="container"> 
-            <nav> <!-- Header Navigation Begins-->
+            <nav id="navi"> <!-- Header Navigation Begins-->
                     <ul>
                         <!-- The following are dummy links -->
                         <li><a href="#about">About</a></li>
                         <li><a href="#store">Store</a></li>
-                        <li><a href="#gmail">Gmail</a></li>
-                        <li><a href="#images">Images</a></li>
+                        <li class="fr-link"><a href="#gmail">Gmail</a></li>
+                        <li class="fr-link"><a href="#images">Images</a></li>
+                        <li class="fr-link"><a href="#gApp"><img class="gApp" src="Images/gApps.png" alt="Google Apps"></a></li>
+                        <li class="fr-link"><a id="signIn" href="#signIn">Sign In</a></li>
                     </ul>
             </nav> <!-- Header Navigation Ends -->
         </div>
@@ -26,7 +28,7 @@
         </div>
 
         <!-- Search Bar -->
-        <div>
+        <div id="search-container">
            <input id="search-bar" type="text" name="search-bar">
            <a href="#voice-search"><img id="voice-search" src="Images/VoiceSearchIcon.png" alt="Voice Search"</a>
         </div>

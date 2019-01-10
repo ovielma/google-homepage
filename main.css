@@ -15,6 +15,28 @@ html {
     margin-top: 150px;
 }
 
+/* Search Container */
+#search-container {
+    border: 1px solid #b3b3b3;
+    margin: 15px auto;
+    width: 400px;
+    border-radius: 3px;
+}
+
+/* Search bar */
+#search-bar {
+    width: 500px;
+    height: 30px;
+    font-size: 1em;
+}
+
+/* Voice Search*/
+#voice-search {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+
 img{
     display: block;
     margin: 0 auto;
@@ -56,6 +78,10 @@ footer {
     bottom: 0;
     right: 0; 
     left: 0;
-    height: 80px;
+    height: 40px;
     background-color: #f1f1f1;
+}
+
+footer ul {
+    margin: 7px 15px;
 }
