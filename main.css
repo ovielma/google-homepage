@@ -5,61 +5,106 @@ html {
     margin: 0;
 }
 
+/* ids */
 #container {
     position: relative;
     min-height: 100%;
     padding-bottom: 80px;
 }
 
+#navi ul li:active {
+    color: #000;
+}
+
 #glogo {
     margin-top: 150px;
 }
 
-/* Search Container */
 #search-container {
     border: 1px solid #b3b3b3;
     margin: 15px auto;
     width: 400px;
     border-radius: 3px;
+    box-shadow: 1px 1px 1px #b3b3b3;
 }
 
-/* Search bar */
+#search-container: :hover {
+    box-shadow: 1px 1px 1px #b3b3b3;
+}
+
 #search-bar {
-    width: 500px;
-    height: 30px;
+    width: 350px;
+    height: 35px;
+    border: none;
     font-size: 1em;
 }
 
-/* Voice Search*/
 #voice-search {
     height: 20px;
     width: 20px;
     vertical-align: middle;
 }
 
-img{
+#glogo img {
     display: block;
     margin: 0 auto;
     height: 85px;
 }
 
-textarea {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+/* classes */
+.fr-link {
+    float: right;
 }
+
+.gApp {
+    height: 15px;
+    width: 15px;
+    opacity: 0.50;
+}
+
+/* Header & Footer */
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width;: 200px;
-    overflow: hidden;   
+    width;: 200px;   
 }
 
-li {
-    float: left;
+ul li {
+    display: inline-block;
+    margin: 5px 10px;
 }
+
+ul li a:link {
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+ul li a:visited {
+    color: #000;
+}
+
+/*
+#srch-bttn: input {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #f2f2f2;
+    border-radius: 2px;
+    font-weight: bold;
+    color: #757575;
+}
+
+#srch-bttn input: hover {
+    border: 1px solid #757575;
+}
+*/
+
+/*
 
 li a {
     display: block;
@@ -68,10 +113,7 @@ li a {
     padding: 10px 11px;
     text-decoration: none;
 }
-
-li a: :hover {
-    background-color: #111;
-}
+*/
 
 footer {
     position: absolute;
@@ -84,4 +126,8 @@ footer {
 
 footer ul {
     margin: 7px 15px;
+}
+
+footer ul li:active {
+    color: #F00;
 }
