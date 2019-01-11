@@ -2,14 +2,14 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     padding: 0;
-    margin: 0;
+    margin: 10px;
 }
 
 /* ids */
 #container {
     position: relative;
     min-height: 100%;
-    padding-bottom: 80px;
+    padding-bottom: 90px;
 }
 
 #navi ul li:active {
@@ -17,38 +17,42 @@ html {
 }
 
 #glogo {
-    margin-top: 150px;
+    margin-top: 80px;
 }
 
 #search-container {
     border: 1px solid #b3b3b3;
     margin: 15px auto;
-    width: 400px;
-    border-radius: 3px;
+    width: 580px;
+    border-radius: 1px;
     box-shadow: 1px 1px 1px #b3b3b3;
 }
 
-#search-container: :hover {
-    box-shadow: 1px 1px 1px #b3b3b3;
+#search-container:hover {
+    box-shadow: 1px 2px 2px #b3b3b3;
 }
 
 #search-bar {
-    width: 350px;
-    height: 35px;
+    width: 550px;
+    height: 40px;
     border: none;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 #voice-search {
-    height: 20px;
-    width: 20px;
-    vertical-align: middle;
+    height: 24px;
+    width: 24px;
+    align-items: center;
 }
 
 #glogo img {
     display: block;
     margin: 0 auto;
-    height: 85px;
+    height: 90px;
+}
+
+#srch-bttn {
+    margin: 25px;
 }
 
 #srch-bttn input {
@@ -56,7 +60,8 @@ html {
     padding: 10px 15px;
     border: none;
     background-color: #f2f2f2;
-    border-radius: 2px;
+    border-radius: 1px;
+    font-size: 13px;
     font-weight: bold;
     color: #757575;
 }
@@ -65,15 +70,43 @@ html {
     border: 1px solid #757575;
 }
 
+/* Sign In Link */
+#signIn {
+    background-color: rgb(0, 115, 255);
+    opacity: .90;
+    color: #fff;
+    font-weight: bold;
+    padding: 7px 13px;
+    border-radius: 2px;
+}
+
+#signIn:hover {
+    text-decoration: none;
+}
+
+#signIn:active {
+    background-color: rgb(0, 100, 223);
+    border-top: 2px solid rgb(0, 0. 77);
+}
+
 /* classes */
+
+.body {
+    text-align: center;
+}
+
 .fr-link {
     float: right;
 }
 
 .gApp {
-    height: 15px;
-    width: 15px;
-    opacity: 0.50;
+    height: 16px;
+    width: 16px;
+    opacity: 0.55;
+}
+
+.gApp:hover {
+    opacity: 0.85;
 }
 
 /* Header & Footer */
@@ -92,6 +125,7 @@ ul li {
 
 ul li a:link {
     text-decoration: none;
+    color: #000;
 }
 
 ul li a:hover {
@@ -101,17 +135,6 @@ ul li a:hover {
 ul li a:visited {
     color: #000;
 }
-
-/*
-
-li a {
-    display: block;
-    color: black;   
-    text-align: center;
-    padding: 10px 11px;
-    text-decoration: none;
-}
-*/
 
 footer {
     position: absolute;
@@ -124,8 +147,4 @@ footer {
 
 footer ul {
     margin: 7px 15px;
-}
-
-footer ul li:active {
-    color: #F00;
 }

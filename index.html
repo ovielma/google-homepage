@@ -5,6 +5,7 @@
         <link href="main.css" rel="stylesheet" type="text/css"/>
         <meta charset="UTF-8">
         <title>Google</title>
+        <link rel="icon" href="Images/favicon.png">
     </head>
 
     <body>
@@ -22,21 +23,26 @@
             </nav> <!-- Header Navigation Ends -->
         </div>
 
-        <!-- Google Logo -->
-        <div id="glogo">
-            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo"/>
-        </div>
+        <div class="body">
 
-        <!-- Search Bar -->
-        <div id="search-container">
-           <input id="search-bar" type="text" name="search-bar">
-           <a href="#voice-search"><img id="voice-search" src="Images/VoiceSearchIcon.png" alt="Voice Search"</a>
-        </div>
+            <!-- Google Logo -->
+            <div id="glogo">
+                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo"/>
+            </div>
 
-        <!-- Search Buttons -->
-        <div id="srch-bttn">
-            <input type="submit" value="Google Search">
-            <input type="submit" value="I'm Feeling Lucky">
+            <form>
+                <!-- Search Bar -->
+                <div id="search-container">
+                <input id="search-bar" type="text" name="search">
+                <a href="#voice-search"><img id="voice-search" src="Images/VoiceSearchIcon.png" alt="Voice Search"</a>
+                </div>
+
+                <!-- Search Buttons -->
+                <div id="srch-bttn">
+                    <input type="submit" value="Google Search">
+                    <input type="submit" value="I'm Feeling Lucky">
+                </div>
+            </form>
         </div>
 
         <footer id="fbar"> <!-- Footer Begins -->
